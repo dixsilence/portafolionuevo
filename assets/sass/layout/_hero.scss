@@ -1,7 +1,17 @@
-.hero {
-    height: 80vh;
-    background-color: red;
-    h1 {
-        padding-top: 40vh;
-    }
+.hero__index {
+    height: 100vh;
+    background-image: url(../img/hero-portada.png);
+    background-position: center;
+    background-size: cover;
+    padding-bottom: 20px;
+}
+
+.hero__index__texto {
+    width: 60vw;
+    padding-bottom: 50px;
+    background-color: rgb(111111, 111111, 111111, 0.5);
+}
+
+.hero__portafolio {
+    margin-top: 56px;
 }

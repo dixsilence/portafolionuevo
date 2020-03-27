@@ -9879,8 +9879,29 @@ h3 {
   padding: 0 20px 0 20px;
 }
 
+/*Estos son los tamaños de topografías para el básico de mobile*/
 h1 {
-  font-size: 24pt;
+  font-size: 2rem;
+}
+
+h2 {
+  font-size: 1.8rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+h4 {
+  font-size: 1.3rem;
+}
+
+h5 {
+  font-size: 1rem;
+}
+
+p {
+  font-size: 0.8rem;
 }
 
 .bg__color {
@@ -9891,43 +9912,82 @@ h1 {
   font-family: "Permanent Marker", cursive !important;
 }
 
+.main {
+  padding-bottom: 50px;
+}
+
 footer {
-  height: 25vh;
+  height: 15vh;
   width: 100vw;
   background-color: #465B7B;
+}
+
+.footer__container {
+  height: 15vh;
 }
 
 i {
   color: white;
   font-size: 30px;
 }
+i:active {
+  color: indianred;
+}
 
 .footer__rrss {
-  width: 100%;
-  height: 50px;
+  height: 40px;
+  width: 50%;
 }
 .footer__rrss i {
   padding-left: 10px;
 }
 
-.hero {
-  height: 80vh;
-  background-color: red;
+.hero__index {
+  height: 100vh;
+  background-image: url(../img/hero-portada.png);
+  background-position: center;
+  background-size: cover;
+  padding-bottom: 20px;
 }
-.hero h1 {
-  padding-top: 40vh;
+
+.hero__index__texto {
+  width: 60vw;
+  padding-bottom: 50px;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.hero__portafolio {
+  margin-top: 56px;
 }
 
 .btn-whatsapp {
   background-color: #25D366;
-  height: 50px;
+  height: 40px;
+  width: 150px;
+}
+.btn-whatsapp:hover {
+  background-color: #128C7E;
+}
+.btn-whatsapp:hover p {
+  color: white;
 }
 .btn-whatsapp p {
   margin: 0;
+  padding: 0 10px;
+  font-size: 12px;
+  height: 100%;
+}
+.btn-whatsapp i {
   padding: 0;
-  height: 50px;
-  padding-right: 10px;
-  justify-items: center;
+  margin: 0;
+  height: 100%;
+}
+
+.caja {
+  width: 40vw;
+  height: 40vw;
+  background-color: red;
+  /*margin: 10px;*/
 }
 
 /*# sourceMappingURL=style.css.map */
